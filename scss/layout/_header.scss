@@ -6,24 +6,33 @@
   padding-bottom: 2.7rem;
   text-align: end;
 }
-
+.sitenav {
+  gap: 3.3rem;
+}
 .sitenav__list {
   text-decoration: none;
   display: flex;
   align-items: end;
   gap: 3.3rem;
+  justify-content: flex-end;
 }
 .sitenav__item {
+  gap: 3.3rem;
   list-style: none;
+  gap: 3.3rem;
+}
+
+.sitenav__link {
   font-size: 20px;
   font-weight: 500;
   line-height: 29.38px;
   color: #000000;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .header__hero {
   display: flex;
-  align-items: center;
   padding-top: 14rem;
 }
 
@@ -55,15 +64,24 @@
   color: #fff;
   text-decoration: none;
 }
+.menu {
+  visibility: hidden;
+}
 
 @media screen and (max-width: 680px) {
-  .sitenav {
-    visibility: hidden;
+  .menu {
+    justify-content: flex-end;
+    visibility: visible;
+    display: inline-block;
+  }
+  .sitenav__item {
+    display: none;
   }
   .header__hero {
     flex-direction: column-reverse;
     text-align: center;
     padding-top: 3.3rem;
+    align-items: center;
   }
   .header__hero__container {
     margin-top: 3.4rem;

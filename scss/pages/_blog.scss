@@ -1,0 +1,45 @@
+.blog__hero {
+  padding-top: 3.6rem;
+}
+.main__hero__container {
+  color: $Dark-color;
+}
+.blog__hero__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0;
+  margin-bottom: 5.5rem;
+}
+.blog__inner {
+  display: flex;
+  flex-direction: column;
+}
+.hero__word {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  color: $Light-color;
+}
+
+@media screen and (max-width: 850px) {
+  .blog__hero {
+    padding-top: 5rem;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .blog__hero__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 4rem;
+  }
+  .hero__word {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+  }
+}

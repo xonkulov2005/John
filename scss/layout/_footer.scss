@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 5.3rem;
+}
+.footer__container {
+  padding-top: 5.1rem;
+  padding-bottom: 5.4rem;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.footer__socials {
+  gap: 3.5rem;
+  display: flex;
+  text-align: center;
+}
+
+.footer__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+  color: $Dark-color;
+  margin-top: 2.6rem;
+}
