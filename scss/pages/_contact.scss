@@ -1,24 +1,64 @@
-.contact__inner__cta {
-  margin-bottom: 3.3rem;
-}
-
-.blog__link__text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 29.38px;
-}
-
-.blog__container__item {
+.contact__hero__title {
   font-size: 34px;
   font-weight: 700;
   line-height: 49.94px;
-  align-items: center;
-  display: flex;
+  color: $Dark-color;
 }
-
 .contact__btn {
   display: inline-block;
 }
 .Contact__hero {
   color: $Dark-color;
+}
+@media screen and (max-width: 850px) {
+  .contact__hero__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
+
+.img__container {
+  padding-top: 4.6rem;
+  padding-bottom: 5.4rem;
+}
+.contanct__img {
+  width: 100%;
+  height: auto;
+}
+
+.contanct__cta__title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.contanct__cta__item {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.contanct__cta__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #000000;
+}
+.contanct__cta__img {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .contanct__cta__title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .contanct__cta__item {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+  }
 }
